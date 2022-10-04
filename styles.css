@@ -1,4 +1,4 @@
- @charset "UTF-8";
+
 /* Christal.css */
 html{
   width:100%;
@@ -308,7 +308,23 @@ footer{
 	margin: 18vw 0vw 0vw 0vw;
 }
 
-.pj1p1 h2{
+.p1page3{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.p1page4{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.p1page5{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.p1page6{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.pj1p1 h2, .pj1p2 h2, .pj1p3 h2, .pj1p4 h2, .pj1p5 h2{
 	letter-spacing: 0.2vw;
 	margin: 0vw 0vw 0vw 2.5vw;
 	font-size: 2.0vw;
@@ -323,6 +339,32 @@ footer{
 	width: 35%;
 	font-family:'Avenir Light';
 	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p2 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p3 p, .pj1p4 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 95%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj1p5 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 50vw;
 }
 
 .p02{
@@ -606,6 +648,38 @@ a{
   top: 0vw;
   left: -2.5vw;
    border: 0.12vw solid #CECECE;
+}
+
+.pj1img2{ 
+  width:95vw;
+  height: 31vw;
+  padding: 0vw 0vw 0vw;
+  margin: 1vw 2.036vw -1vw 4.5vw;
+  border-radius: 3vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj1img3{ 
+  width:99vw;
+  height: 32.3vw;
+  padding: 0vw 0vw 0vw;
+  margin: 2.3vw 0vw 0vw 2.3vw;
+  border-radius: 3vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj1img4{ 
+  width:27vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -35.1vw 0vw 0vw 4.8vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
 }
 
 .fu{

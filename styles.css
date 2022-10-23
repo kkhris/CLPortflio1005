@@ -66,11 +66,11 @@ li a {
 }
 
 
-li a:link, .exp2 a:link, .foot a:link,.footp a:link, .footersub a:link,.turnr a:link, .turnl a:link, .prevNext a:link, .columnp a:link, .footeri a:link,  .foot9 a:link, .navfooter li a:link, .NextProject a:link, .pj1p1 a:link{
+li a:link, .exp2 a:link, .foot a:link,.footp a:link, .footersub a:link,.turnr a:link, .turnl a:link, .prevNext a:link, .columnp a:link, .footeri a:link,  .foot9 a:link, .navfooter li a:link, .NextProject a:link,.PreviousPhoto a:link, .pj1p1 a:link , .NextPhoto a:link{
   color:darkgray;
 } 
 
-li a:visited, .exp2 a:visited, .foot a:visited,.footp a:visited, .footersub a:visited, .turnr a:visited, .turnl a:visited, .prevNext a:visited, .columnp a:visited, .footeri a:visited, .foot9 a:visited, .navfooter li a:visited, .NextProject a:visited, .pj1p1 a:visited{
+li a:visited, .exp2 a:visited, .foot a:visited,.footp a:visited, .footersub a:visited, .turnr a:visited, .turnl a:visited, .prevNext a:visited, .columnp a:visited, .footeri a:visited, .foot9 a:visited, .navfooter li a:visited, .NextProject a:visited, .PreviousPhoto a:visited,.NextPhoto a:visited, .pj1p1 a:visited{
   color:#90A3B5;
 } 
 
@@ -78,13 +78,13 @@ li a:hover, .exp2 a:hover, .foot a:hover,.footp a:hover, .footersub a:hover, .tu
   color:#545454;
 } 
 
-.navfooter li a:hover, .NextProject a:hover,.pj1p1 a:hover{
+.navfooter li a:hover, .NextProject a:hover,.PreviousPhoto a:hover,.NextPhoto a:hover,.pj1p1 a:hover{
 	  color:#545454;
 	text-decoration: underline;
 }
 
 
-li a:active, .exp2 a:active, .foot a:active,.footp a:active, .footersub a:active, .turnr a:active, .turnl a:active, .prevNext a:active, .footeri a:active, .foot9 a:active, .navfooter li a:active,  .NextProject a:active, .pj1p1 a:active{
+li a:active, .exp2 a:active, .foot a:active,.footp a:active, .footersub a:active, .turnr a:active, .turnl a:active, .prevNext a:active, .footeri a:active, .foot9 a:active, .navfooter li a:active,  .NextProject a:active,.PreviousPhoto a:active,.NextPhoto a:active, .pj1p1 a:active{
   color: #E5E4E4;
 }
 
@@ -207,6 +207,218 @@ text-align: center;
  	margin:-2.6vw 0vw 0vw 0vw;
 }
 
+.photohead{
+	text-align: center;
+}
+
+.photohead2{
+	text-align: center;
+}
+
+.photohead h1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0.7vw 0vw;
+}
+
+.photohead2 h1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0.7vw 0vw;
+}
+
+.photohead p{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead2 p{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead p2{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+	margin: 0vw 0vw -1vw 0vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead p1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+	padding-bottom: 80vw;
+ 	font-size: 2.9vw;
+ 	font-family: "Avenir Book";
+}
+
+.photohead2 p1{
+	color: #343434;
+	text-align: center;
+ 	letter-spacing: 0vw;
+ 	font-size: 2.9vw;
+ 	font-family: "Avenir Book";
+}
+
+.grid-container{
+  display: grid;
+  padding: 0vw 0vw 2vw;
+  width: 55vw;
+  height: 47vw;
+  margin: 0.5vw 0vw 0vw 0vw;
+}
+
+.container2{
+  display: grid;
+  background-color:white;
+  padding: 16.6vw 0vw 19.9vw;
+  width: 37vw;
+  height: 12.5vw;
+  margin: -49vw 0vw 0vw 60vw;
+}
+
+.container3{
+  display: grid;
+  background-color:white;
+  padding: 5vw 0vw 4.2vw 0vw;
+  width: 37%;
+  margin: -11.5vw 0vw 0vw 60vw;
+}
+
+.container3 p2{
+	text-align: center;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container4{
+  display: grid;
+  background-color:white;
+  width: 60%;
+  margin: 8vw 0vw -2vw 30vw;
+}
+
+.container4 p2{
+    text-align: left;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container5{
+  display: grid;
+  background-color:white;
+  width: 99vw;
+  height: 28vw;
+  margin: 5vw 0vw -0.7vw 3vw;
+}
+
+.container6{
+  display: grid;
+  background-color:white;
+  width: 50vw;
+  height: 10vw;
+  margin: 3.3vw 0vw 0vw 2.5vw;
+}
+
+.container6 h1{
+	color: #343434;
+	text-align: left;
+ 	letter-spacing: 0vw;
+ 	font-size: 3.4vw;
+ 	font-family: "Futura PT Heavy";
+	margin: 1vw 0vw 0vw 0vw;
+}
+
+.container7{
+  display: grid;
+  background-color:white;
+  width: 50vw;
+  height: 5vw;
+  margin: -4vw 0vw 8vw 2.5vw;
+}
+
+.container7 p2{
+    text-align: left;
+	color: #343434;
+ 	letter-spacing: 0.05vw;
+ 	font-size: 1.5vw;
+ 	font-family: "Avenir Book";
+}
+
+.container8{
+  display: grid;
+  background-color:white;
+  padding: 16.6vw 0vw 19.9vw;
+  width: 37%;
+  margin: 5vw 0vw 0vw -0.5vw;
+}
+
+.container9{
+  display: grid;
+  background-color:white;
+  width: 28%;
+  margin: -48vw 0vw 0vw 40vw;
+}
+
+.container10{
+  display: grid;
+  background-color:indianred;
+  width: 25%;
+  margin: -41.9vw 0vw 0vw 69.7vw;
+}
+
+.container11{
+  display: grid;
+  background-color:indianred;
+  width: 25%;
+  margin: 2.75vw 0vw 0vw 69.7vw;
+}
+
+.box{
+	padding-bottom: 0vw;
+}
+
+.containerpictures{
+   display: grid;
+   overflow: hidden;
+   grid-template-columns: 16% 16% 40% 16% 16%;
+     grid-template-rows: 28vw ;
+   gap:1vw;
+}
+
+.container5p1{
+	background-color:cornflowerblue;
+	width: 100%;
+  height: 100%;
+}
+
+.container5p2{
+	background-color:yellow;
+	width: 100%;
+  height: 100%;
+}
+
 .title p{
  	letter-spacing:0.05vw;
 	font-size: 1.3vw;
@@ -216,6 +428,15 @@ text-align: center;
 }
 
 .page4 h2{
+ color: #343434;
+ text-align: left;
+ letter-spacing: 0.2vw;
+ margin: 10vw 0vw 0.01vw 2.0vw;
+ font-size: 2.55vw;
+ font-family: "Futura PT Heavy";
+}
+
+.page5 h2{
  color: #343434;
  text-align: left;
  letter-spacing: 0.2vw;
@@ -255,6 +476,10 @@ letter-spacing: 0.2vw;
 	margin-bottom: 10vw;
 }
 
+.page5{
+	margin: 50vw 0vw;
+}
+
 .page4 p1{
  color: #343434;
  font-size: 1.2vw;
@@ -264,6 +489,14 @@ letter-spacing: 0.2vw;
  font-family:"Avenir Light";
 }
 
+.page5 p1{
+ color: #343434;
+ font-size: 1.2vw;
+ text-align: left;
+  letter-spacing: 0.05vw;
+ margin: 0vw 0vw 0vw 2vw;
+ font-family:"Avenir Light";
+}
 
 .NextProject a{
  color: #939393;
@@ -272,6 +505,26 @@ letter-spacing: 0.2vw;
  letter-spacing: 0.05vw;
  margin: -2.5vw 3vw 0vw 0vw;
  float: right;
+ font-family: 'Avenir Light';
+}
+
+.NextPhoto a{
+ color: #939393;
+ font-size: 1.3vw;
+ text-align: left;
+ letter-spacing: 0.05vw;
+ margin: -17.55vw 0.5vw 0vw 0vw;
+ float: right;
+ font-family: 'Avenir Light';
+}
+
+.PreviousPhoto a{
+ color: #939393;
+ font-size: 1.3vw;
+ text-align: left;
+ letter-spacing: 0.05vw;
+ margin: -17.55vw 0vw 0vw -77vw;
+ float: left;
  font-family: 'Avenir Light';
 }
 
@@ -324,7 +577,19 @@ footer{
 	margin: 13vw 0vw 0vw 0vw;
 }
 
-.pj1p1 h2, .pj1p2 h2, .pj1p3 h2, .pj1p4 h2, .pj1p5 h2{
+.p2page4{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.p2page5{
+	margin: 13vw 0vw 0vw 52vw;
+}
+
+.p2page6{
+	margin: 13vw 0vw 0vw 0vw;
+}
+
+.pj1p1 h2, .pj1p2 h2, .pj1p3 h2, .pj1p4 h2, .pj1p5 h2, .pj2p4 h2, .pj2p5 h2, .pj2p6 h2{
 	letter-spacing: 0.2vw;
 	margin: 0vw 0vw 0vw 2.5vw;
 	font-size: 2.0vw;
@@ -367,6 +632,34 @@ footer{
 	margin: 2vw 0vw 0vw 50vw;
 }
 
+.pj2p4 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj2p5 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 85%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+.pj2p6 p{
+	letter-spacing:0.05vw;
+	font-size: 1.3vw;
+	line-height: 3vw;
+	width: 45%;
+	font-family:'Avenir Light';
+	margin: 2vw 0vw 0vw 2.5vw;
+}
+
+
 .p02{
 	margin: 6vw 0vw 0vw 0vw;
 }
@@ -377,6 +670,11 @@ footer{
   margin: 0vw 0vw -43vw 53vw;
 }
 
+.pj2img1{
+  width:55vw;
+  height: auto;
+  margin: -35vw 0vw 0vw 45vw;
+}
 
 
 .column h2{
@@ -421,6 +719,81 @@ a{
   Description: Typewriter effect
   Date retrieved: July 1, 2020
 */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: -3vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:transparent;
+}
+
+.modal:target {
+    display: block;
+      z-index: 1;
+     background-color:#FFFFFF95;
+}
+
+.popup {
+  padding: 20px;
+  background: #fff;
+  border-radius: 2vw;
+  width: 90vw;
+  height: 40vw;
+  margin: 10.8vw 0vw 0vw 2.8vw;
+  position: relative;
+  transition: all 5s ease-in-out;
+  border: 0.12vw solid #CECECE;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.tspic1{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 15vw;
+}
+
+.popup p{
+    font-family:'Avenir Light';
+    margin: -1.50vw 0vw 0vw 78.5vw;
+}
+
+.tspic2{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 18vw;
+}
+
+.tspic3{
+    width: 59.5vw;
+    height:39.5vw;
+    margin: 0vw 0vw 0vw 15vw;
+}
+
+.tspic4{
+    width: 60vw;
+    height:39.5vw;
+    margin: 0.1vw 0vw 0vw 15vw;
+}
 
 /*Copied code starts*/
 
@@ -482,20 +855,136 @@ a{
   height:32.3vw;
 }
 
-.overlay {
-  position: absolute;
-  top: 0vw;
-  bottom: 0;
-  left: 0vw;
-  right: 0;
-  width:21.528vw;
-  height:32.3vw;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #5D595980;
+.collab{
+  margin: 52vw 0vw 0vw 0vw;
 }
 
-.container:hover .overlay {
+.picp101{
+    display: grid;
+    width: 13vw;
+    background-color: indianred;
+    margin: 2.5vw 0vw -7vw 2vw;
+}
+
+.picp102{
+    display: grid;
+      margin: 9vw 0vw -0.3vw 2vw;
+}
+
+.picp103{
+    display: grid;
+        margin: -29.75vw 0vw 0vw 19vw;
+}
+
+.picp104{
+    display: grid;
+      margin: -23vw 0vw 0vw 37vw;
+}
+
+.pic1 {
+display: grid;
+  width:13vw;
+  height:20vw;
+}
+
+.pic2 {
+display: grid;
+  width:16.35vw;
+  height:23vw;
+}
+
+.pic3 {
+display: grid;
+  width:17.4vw;
+  height:30vw;
+}
+
+.pic4 {
+  display: grid;
+  width:16.87vw;
+  height:23vw;
+}
+
+.c1 {
+  width:100%;
+  height:100%;
+}
+
+.c2 {
+  width:100%;
+  height:100%;
+}
+
+.c3{
+  width:100%;
+  height:100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 7.8vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0;
+  height: 20vw;
+  width: 13vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp101:hover .overlay {
+  opacity:1;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 29.8vw;
+  bottom: 0;
+  left: 2vw;
+  right: 0;
+  height: 23vw;
+  width: 16.4vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp102:hover .overlay2 {
+  opacity:1;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 22.75vw;
+  bottom: 0;
+  left: 19vw;
+  right: 0;
+  height: 30vw;
+  width: 17.4vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp103:hover .overlay3 {
+  opacity:1;
+}
+
+.overlay4 {
+ position: absolute;
+  top: 29.75vw;
+  bottom: 0;
+  left: 37vw;
+  right: 0;
+  height: 23vw;
+  width: 16.9vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA50;
+}
+
+.picp104:hover .overlay4 {
   opacity:1;
 }
 
@@ -651,6 +1140,17 @@ a{
    border: 0.12vw solid #CECECE;
 }
 
+.homeimgproinner{ 
+  width:95vw;
+  height: 31vw;
+  padding: 0vw 0vw 0vw;
+  margin: 1.8vw 2.036vw 3.5vw 4.5vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+  border: 0.12vw solid #CECECE50;
+}
+
 .pj1img2{ 
   width:95vw;
   height: 31vw;
@@ -681,6 +1181,33 @@ a{
   position: relative;
   top: 0vw;
   left: -2.5vw;
+}
+
+.pj2img2{ 
+  width:40vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -35.1vw 0vw 0vw 60vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj2img3{ 
+  width:52vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -55vw 0vw 0vw -53vw;
+  position: relative;
+  top: 0vw;
+  left: -2.5vw;
+}
+
+.pj2img4{ 
+ width:50vw;
+  height: auto;
+  padding: 0vw 0vw 0vw;
+  margin: -55vw 0vw 0vw 52vw;
 }
 
 .fu{
